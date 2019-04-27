@@ -1,1 +1,1 @@
-# Eat-Da-Burger
+A Burger logger made with MySQL, Node, Express, Handlebars.

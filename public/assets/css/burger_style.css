@@ -1,0 +1,115 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color:#FFDE00;
+}
+    
+
+.main-section {
+    background-color:#FFDE00;
+    color: BROWN;
+}
+
+.h1, h1 {
+    text-align: center;
+    font-size: 65px;
+    margin: 50px;
+}
+
+.h2, h2 {
+    text-align: center;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 40px;
+    margin: 50px;
+    color: #f5f5f5;
+}
+
+.h3, h3, .h4, h4, .h5, h5, .h6, h6 {
+    font-weight: bolder;
+    line-height: 1.1;
+}
+
+.container, .container-fluid {
+    background-color: #FFDE00;
+}
+
+.header {
+    background-color:#FFDE00;
+    color: #f5f5f5;
+}
+
+img {
+    background-size: 100%;
+    background-size: cover;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#name {
+    font-size: 2em;
+    height: 5rem;
+}
+
+.burgerAvailable {
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #b7ffc2;
+    border: none;
+    color: #705c3a;
+}
+
+
+.burgerEaten {
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: #ffd1c9;
+}
+
+.formContainer {
+    background-color: orange;
+}
+
+.addBurgerButton {
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: #FFC04C;
+    border: none;
+    /* color: whitesmoke; */
+}
+
+.add-burger {
+    color: f4f4f4;
+}
+
+.addBurgerButton:active {
+    background-color: #FFC04C;
+}
+
+.burgerFooter {
+    background-color: #FFC04C;
+    padding: 20px 0;
+}
+
+#B3 {
+    color: #ffffff;
+}
